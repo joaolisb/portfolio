@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="resources/styles.css">
+        <link rel="stylesheet" href="resources/queries.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <header id="cabecalho">
+            <nav id="barra-header">
+                <a onclick="toHome()" class="nav-img"><img src="assets/logo-jl.svg" width="50px" alt="Logo" title="Home" /></a>
+                <ul class="nav-1">
+                    <li><a class="nav-link" onclick="toHome()">Home</a></li>
+                    <li><a class="nav-link" onclick="toSobre()">Sobre mim</a></li>
+                    <li><a class="nav-link" onclick="toProjetos()">Meus projetos</a></li>
+                </ul>
+                <ul class="nav-2">
+                    <li><a class="nav-link" onclick="toHome()" title="Home"><i class="bi bi-house-fill"></i></a></li>
+                    <li><a class="nav-link" onclick="toSobre()" title="Sobre mim"><i class="bi bi-person-fill"></i></a></li>
+                    <li><a class="nav-link" onclick="toProjetos()" title="Meus projetos"><i class="bi bi-journal-code"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="darkmode">
+            <button id="darkmode" onclick="nox()"><i class="bi bi-moon-fill"></i></button>
+            <button id="lightmode" onclick="lumos()"><i class="bi bi-sun-fill"></i></button>
+        </div>
+        <section id="home">
+            <div id="apresentacao">
+                <p class="ola">Olá! Meu nome é</p>
+                <h1 class="nome">JOÃO LISBOA</h1>
+                <p class="ocupacao">DESENVOLVEDOR FRONT-END</p>
+                <br />
+                <a onclick="toSobre()"><button class="sobre-mim">Sobre mim</button></a>
+                <a href="https://www.linkedin.com/in/joão-lisboa-35335013b/" title="Meu Linkedin!" target="_blank"><button class="social social-1"><i class="bi bi-linkedin"></i></button></a>
+                <a href="https://github.com/joaolisb" title="Meu Repositório no Github!" target="_blank"><button class="social"><i class="bi bi-github"></i></button></a>
+            </div>
+            <div class="foto">
+                <img id="foto-perfil" src="assets/port-pic.png" height="500px" width="auto" alt="Fresh folk avatar" />
+            </div>
+        </section>
+        <hr />
+        <section id="sobre">
+            <h2 class="titulo-1">Sobre mim</h2>
+            <div id="texto-sobre">
+                <img class="foto2" src="assets/profile.png" height="350px" alt="Foto perfil" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <br />
+                    <img src="assets/logo-html.svg" class="skill" height="60px" width="auto" alt="HTML" title="HTML" />
+                    <img src="assets/logo-css.svg" class="skill" height="60px" width="auto" alt="CSS" title="CSS"  />
+                    <img src="assets/logo-js.svg" class="skill" height="60px" width="auto" alt="JavaScript" title="JavaScript"  />
+                    <img src="assets/logo-react.svg" class="skill" height="60px" width="auto" alt="React.js" title="React.js"  />
+                    <img src="assets/logo-photoshop.svg" class="skill" height="60px" width="auto" alt="Photoshop" title="Adobe Photoshop"  />
+                    <img src="assets/logo-illustrator.svg" class="skill" height="60px" width="auto" alt="Illustrator" title="Adobe Illustrator"  />
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="projetos">
+            <h2 class="titulo-3">Meus projetos:</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><h3>Gerador de gradientes</h3></a>
+                            <p>Cria gradientes entre duas cores aleatórias no clique de um botão. Possui função de copiar as cores desejadas.</p>
+                        </td>
+                        <td><a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><img src="assets/projeto-1.jpg" width="344" alt="Projeto" title="Gerador de Gradientes" /></a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3 style="color:#fd2155">Projeto em andamento</h3>
+                            <p>Em breve.</p>
+                        </td>
+                        <td><img src="assets/manutencao.jpg" width="344" alt="Em construção" title="Em construção" /></td>
+                    </tr>
+                </tbody>
+                </table>
+        </section>
+       
+        <footer>
+            <div>
+                <p>Desenvolvido com muito &nbsp;<i class="bi bi-cup-hot-fill" title="Café"></i>&nbsp; por <a class="git-jl" href="https://github.com/joaolisb" target="_blank">João Lisboa</a>.</p>
+            </div>
+        </footer>
+
+        <!--JavaScript-->
+        <script src="resources/main.js" async defer></script>
+    </body>
+</html>

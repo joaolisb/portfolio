@@ -1,0 +1,84 @@
+@media (min-width: 1001px) {
+    section {
+        width: 80vw;
+    }
+    .texto-sobre {
+        width: 100%
+    }
+}
+
+@media (max-width: 1000px) {
+    section {
+        width: 90vw;
+    }
+
+    #foto-perfil {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    #home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    #foto-perfil {
+        width: 300px;
+        height: auto;
+    }
+
+    .foto2 {
+        margin-top: 60px;
+        width: 300px;
+        height: auto;
+    }
+
+    #texto-sobre {
+        height: 70vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #projetos img {
+        width: 250px;
+        height: auto;
+    }
+
+    .nav-1 {
+        display: none;
+    }
+
+    .nav-2 {
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    section {
+        width: 95vw;
+    }
+
+    #apresentacao {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
