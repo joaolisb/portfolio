@@ -35,9 +35,3 @@ function lumos(){
     light.style.display = 'none';
     dark.style.display = 'block';
 }
-
-function menu(){
-    var cabecalho = document.getElementById('cabecalho');
-    if(document.getElementsByClassName('hamburger') )
-    cabecalho.style.height = '200px'
-}

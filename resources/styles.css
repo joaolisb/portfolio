@@ -145,7 +145,10 @@ hr {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    width: 80%
+    width: 80%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
 }
 
 .titulo-1 {
