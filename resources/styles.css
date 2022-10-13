@@ -25,6 +25,7 @@ body {
 
 section {
     width: 70vw;
+    min-height: 100vh;
 }
 
 .link-img:hover {
@@ -134,14 +135,15 @@ hr {
 
 /*Estilos Sobre*/
 #sobre {
-    height: 100vh;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 85%;
 }
 
 #texto-sobre {
-    height: 70vh;
     display: flex;
-    margin: auto;
+    margin: auto auto 200px auto;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -173,7 +175,6 @@ hr {
 
 /*Estilos Projetos*/
 #projetos {
-    min-height: 100vh;
     margin: auto;
 }
 

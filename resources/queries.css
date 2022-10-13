@@ -40,10 +40,11 @@
 
     .foto2 {
         margin-top: 60px;
+        width: 150px;
+        height: auto;
     }
 
     #texto-sobre {
-        height: 70vh;
         flex-direction: column;
         text-align: center;
     }
@@ -71,17 +72,12 @@
         width: 100%;
     }
 
-    
-}
+    .img-projeto {
+        max-height:100%;
+        max-width:100%
+    }
 
-@media (max-width: 600px) {
-
-}
-
-@media (max-width: 480px) {
-
-}
-
-@media (max-width: 320px) {
-
+    #texto-sobre {
+        margin-bottom: 50px;
+    }
 }
