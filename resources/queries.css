@@ -1,13 +1,19 @@
-@media (min-width: 1001px) {
+@media (min-width: 1300px) {
     section {
-        width: 80vw;
+        width: 70vw;
     }
+	
+	#sobre {
+		width: 85%;
+	}
+	
     .texto-sobre {
-        width: 100%
+        margin: auto;
+		width: 100%
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1299px) {
     section {
         width: 90vw;
     }
@@ -23,7 +29,17 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) and (max-width: 1000px) {
+	#sobre {
+		width: 95%;
+	}
+	
+	#about-lang {
+		font-size: 0.85em;
+	}
+}
+
+@media (max-width: 799px) {
     #home {
         flex-direction: column-reverse;
         justify-content: center;

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>João Lisboa | Front-end</title>
+        <title>João Lisboa | Desenvolvedor</title>
         <meta name="description" content="Portfólio de Desenvolvimento Front-end">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/styles.css">
@@ -14,7 +14,7 @@
         <header id="cabecalho">
             <nav id="barra-header">
                 <a onclick="toHome()" class="nav-img"><img src="assets/logo-jl.svg" width="50px" alt="Logo" title="Home" /></a>
-                <ul class="nav-1">
+                <ul class="nav-1" id="nav1-lang">
                     <li><a class="nav-link" onclick="toHome()">Home</a></li>
                     <li><a class="nav-link" onclick="toSobre()">Sobre mim</a></li>
                     <li><a class="nav-link" onclick="toProjetos()">Meus projetos</a></li>
@@ -26,15 +26,15 @@
                 </ul>
             </nav>
         </header>
-        <div class="darkmode">
-            <button id="darkmode" onclick="nox()"><i class="bi bi-moon-fill"></i></button>
-            <button id="lightmode" onclick="lumos()"><i class="bi bi-sun-fill"></i></button>
-        </div>
+		<div class="side-container">
+			<button id="language-btn" onclick="ptToEn()"><i class="bi bi-translate" style="font-size: 1.5em;"></i></button>
+			<button id="darkmode-btn" onclick="nox()"><i class="bi bi-moon-fill" style="font-size: 1.2em;"></i></button>
+		</div>
         <section id="home">
             <div id="apresentacao">
                 <p class="ola">Olá! Meu nome é</p>
                 <h1 class="nome">JOÃO LISBOA</h1>
-                <p class="ocupacao">DESENVOLVEDOR FRONT-END</p>
+                <p class="ocupacao">DESENVOLVEDOR</p>
                 <br />
                 <a onclick="toSobre()"><button class="sobre-mim">Sobre mim</button></a>
                 <a href="https://www.linkedin.com/in/joao-m-lisboa/" title="Meu Linkedin!" target="_blank"><button class="social social-1"><i class="bi bi-linkedin"></i></button></a>
@@ -46,20 +46,23 @@
         </section>
         <hr />
         <section id="sobre">
-            <h2 class="titulo-1">Sobre mim</h2>
+            <h2 class="titulo-1" id="sobre-lang">Sobre mim</h2>
             <div id="texto-sobre">
                 <img class="foto2" src="assets/profile.png" height="350px" alt="Foto perfil" />
                 <div>
-                    <p>Meu nome é <b>João</b>, um Desenvolvedor Front-end Júnior de Belo Horizonte, MG. Meu foco é a criatividade e o aprendizado, além de perseverança (também chamada de 'teimosia') até eu terminar o que estiver sendo feito.
+                    <p id="about-lang">Meu nome é <b>João</b>, um Desenvolvedor Júnior de Belo Horizonte, MG. Meu foco é a criatividade e o aprendizado, além de perseverança (também chamada de 'teimosia') até eu terminar o que estiver sendo feito. Também possuo experiência com design e edição de imagens, que acredito que complementem a parte criativa do desenvolvimento.
                         <br /><br />
                         Se vamos ser amigos, você deve saber que tudo nessa página eu aprendi a fazer sozinho, além dessas habilidades:</p>
                     <br />
                     <img src="assets/logo-html.svg" class="skill" height="60px" width="auto" alt="HTML" title="HTML" />
                     <img src="assets/logo-css.svg" class="skill" height="60px" width="auto" alt="CSS" title="CSS"  />
                     <img src="assets/logo-js.svg" class="skill" height="60px" width="auto" alt="JavaScript" title="JavaScript"  />
-                    <img src="assets/logo-react.svg" class="skill" height="60px" width="auto" alt="React.js" title="React.js"  />
+                    <img src="assets/logo-java.svg" class="skill" height="60px" width="auto" alt="Java" title="Java"  />
+					<img src="assets/logo-csharp.svg" class="skill" height="60px" width="auto" alt="C#" title="C#"  />
+					<img src="assets/logo-dotnet.svg" class="skill" height="60px" width="auto" alt=".Net" title=".Net"  />	
                     <img src="assets/logo-photoshop.svg" class="skill" height="60px" width="auto" alt="Photoshop" title="Adobe Photoshop"  />
                     <img src="assets/logo-illustrator.svg" class="skill" height="60px" width="auto" alt="Illustrator" title="Adobe Illustrator"  />
+					
                 </div>
             </div>
         </section>
@@ -95,7 +98,7 @@
        
         <footer>
             <div>
-                <p>Desenvolvido com muito &nbsp;<i class="bi bi-cup-hot-fill" title="Café"></i>&nbsp; por <a class="git-jl" href="https://github.com/joaolisb" target="_blank">João Lisboa</a>.</p>
+                <p id="footer-lang">Desenvolvido com muito &nbsp;<i class="bi bi-cup-hot-fill" title="Café"></i>&nbsp; por <a class="git-jl" href="https://github.com/joaolisb" target="_blank">João Lisboa</a>.</p>
             </div>
         </footer>
 
