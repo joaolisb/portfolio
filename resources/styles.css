@@ -182,7 +182,7 @@ hr {
 
 /*Estilos Projetos*/
 #projetos {
-    margin: auto;
+    margin: 0 auto 80px auto ;
 }
 
 .titulo-3 {

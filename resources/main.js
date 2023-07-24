@@ -88,14 +88,21 @@ function ptToEn(){
 											<a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><h3>Gradient Generator</h3></a>
 											<p>Create gradients between two random colors.</p>
 										</td>
-										<td><a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><img class="img-projeto" src="assets/projeto-1.jpg" width="344" alt="Projeto" title="Gradient Generator" /></a></td>
+										<td><a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><img class="img-projeto" src="assets/projeto-1.jpg" width="344" alt="Project" title="Gradient Generator" /></a></td>
 									</tr>
 									<tr>
 										<td>
 											<a class="link-img" href="https://joaolisb.github.io/drumkit/" target="_blank"><h3>Drum Kit</h3></a>
 											<p>Press the keys and listen to the drums.</p>
 										</td>
-										<td><a class="link-img" href="https://joaolisb.github.io/drumkit/" target="_blank"><img class="img-projeto" src="assets/projeto-2.jpg" width="344" alt="Projeto" title="Drum Kit" /></a></td>
+										<td><a class="link-img" href="https://joaolisb.github.io/drumkit/" target="_blank"><img class="img-projeto" src="assets/projeto-2.jpg" width="344" alt="Project" title="Drum Kit" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://joaolisb.github.io/pokedex/" target="_blank"><h3>Pokédex</h3></a>
+											<p>Generation VI Pokémon listing, using API consumption.</p>
+										</td>
+										<td><a class="link-img" href="https://joaolisb.github.io/pokedex/" target="_blank"><img class="img-projeto" src="assets/projeto-3.jpg" width="344" alt="Project" title="Pokédex" /></a></td>
 									</tr>
 									<tr>
 										<td>
@@ -142,6 +149,13 @@ function ptToEn(){
 											<p>Aperte as teclas e escute a bateria.</p>
 										</td>
 										<td><a class="link-img" href="https://joaolisb.github.io/drumkit/" target="_blank"><img class="img-projeto" src="assets/projeto-2.jpg" width="344" alt="Projeto" title="Drum Kit" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://joaolisb.github.io/pokedex/" target="_blank"><h3>Pokédex</h3></a>
+											<p>Lista de Pokémon da 6ª geração, utilizando APIs.</p>
+										</td>
+										<td><a class="link-img" href="https://joaolisb.github.io/pokedex/" target="_blank"><img class="img-projeto" src="assets/projeto-3.jpg" width="344" alt="Projeto" title="Pokédex" /></a></td>
 									</tr>
 									<tr>
 										<td>
