@@ -84,6 +84,27 @@ function ptToEn(){
 							<table>
 								<tbody>
 									<tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.youtube.com/watch?v=Rc0kijHMcis" target="_blank"><h3>Dormed Hospitalar Presentation</h3></a>
+											<p>Editorial video for the company</p>
+										</td>
+										<td><a class="link-img" href="https://www.youtube.com/watch?v=Rc0kijHMcis" target="_blank"><img class="img-projeto" src="assets/projeto-youtube.jpg" width="344" alt="Projeto" title="Vídeo Dormed Hospitalar" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.instagram.com/dormedhospitalar/" target="_blank"><h3>Dormed Hospitalar Instagram</h3></a>
+											<p>Image and Video Editing for social media</p>
+										</td>
+										<td><a class="link-img" href="https://www.instagram.com/dormedhospitalar/" target="_blank"><img class="img-projeto" src="assets/projeto-instagram.jpg" width="344" alt="Projeto" title="Instagram|Dormed Hospitalar" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.youtube.com/@Soliens" target="_blank"><h3>Soliens' Youtube Channel</h3></a>
+											<p>Image and Video Editing for Youtube</p>
+										</td>
+										<td><a class="link-img" href="https://www.youtube.com/@Soliens" target="_blank"><img class="img-projeto" src="assets/projeto-soliens.jpg" width="344" alt="Projeto" title="Youtube|Soliens" /></a></td>
+									</tr>
 										<td>
 											<a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><h3>Gradient Generator</h3></a>
 											<p>Create gradients between two random colors.</p>
@@ -136,6 +157,27 @@ function ptToEn(){
 		projetos.innerHTML = `<h2 class="titulo-3">Meus projetos:</h2>
 							<table>
 								<tbody>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.youtube.com/watch?v=Rc0kijHMcis" target="_blank"><h3>Apresentação Dormed Hospitalar</h3></a>
+											<p>Vídeo Editorial para a empresa</p>
+										</td>
+										<td><a class="link-img" href="https://www.youtube.com/watch?v=Rc0kijHMcis" target="_blank"><img class="img-projeto" src="assets/projeto-youtube.jpg" width="344" alt="Projeto" title="Vídeo Dormed Hospitalar" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.instagram.com/dormedhospitalar/" target="_blank"><h3>Instagram Dormed Hospitalar</h3></a>
+											<p>Criação e Edição de Imagens e Vídeos para redes sociais</p>
+										</td>
+										<td><a class="link-img" href="https://www.instagram.com/dormedhospitalar/" target="_blank"><img class="img-projeto" src="assets/projeto-instagram.jpg" width="344" alt="Projeto" title="Instagram|Dormed Hospitalar" /></a></td>
+									</tr>
+									<tr>
+										<td>
+											<a class="link-img" href="https://www.youtube.com/@Soliens" target="_blank"><h3>Canal Soliens</h3></a>
+											<p>Criação e Edição de Imagens e Vídeos para youtube</p>
+										</td>
+										<td><a class="link-img" href="https://www.youtube.com/@Soliens" target="_blank"><img class="img-projeto" src="assets/projeto-soliens.jpg" width="344" alt="Projeto" title="Youtube|Soliens" /></a></td>
+									</tr>
 									<tr>
 										<td>
 											<a class="link-img" href="https://joaolisb.github.io/gerador-gradiente/" target="_blank"><h3>Gerador de gradientes</h3></a>
